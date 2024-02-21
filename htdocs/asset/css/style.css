@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+body{
+    font-family: "Mukta", sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Titillium Web", sans-serif;
+}
+
+#bodyindex {
+    background-image: url(../../image/bgindex.jpg);
+    background-size: cover;
+
+}
+.cards {
+    height: 280px;
+    width: 350px;
+    background: linear-gradient(90deg, #e2a658 0%, #883f0a 100%);
+    border-radius: 67% 33% 83% 17% / 30% 58% 42% 70% ;
+    padding: 10px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.cardAddZoo{
+    width: 350px;
+    height: 460px;
+    background: linear-gradient(50deg, #e2a658 0%, #883f0a 100%);
+    border-radius: 19% 81% 19% 81% / 79% 19% 81% 21%;
+    padding-left: 4%;
+    padding-top: 0.25%;
+
+}
+
+
+.btn{
+
+font-family: Roboto, sans-serif;
+font-weight: 200;
+font-size: 14px;
+color: #fff;
+background: linear-gradient(90deg, #e2a658 0%, #883f0a 100%);
+padding: 10px 30px;
+border: 2px solid #ffffff;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 25px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+width: 190px;
+margin-left: 30px;
+}
+
+.btn:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background: linear-gradient(90deg, #883f0a 0%,#e2a658 100%);
+color: #ffffff;
+border: solid 2px #ffffff;
+}
+.input {
+    padding: 2px;
+    font-size: 17px;
+    border-width: 0px;
+    border-color: #000000;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    width: 250px;
+    margin: 3%;
+}
+.input:focus {
+    outline:none;
+}
+.label{
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+.cardList {
+    height: 200px;
+    width: 350px;
+    background: linear-gradient(90deg, #e2a658 0%, #883f0a 100%);
+    border-radius: 67% 33% 83% 17% / 30% 58% 42% 70% ;
+    padding: 10px;
+}
+.cardAnimal {
+    height: 300px;
+    width: 350px;
+    background: linear-gradient(90deg, #e2a658 0%, #883f0a 100%);
+    border-radius: 67% 33% 83% 17% / 30% 58% 42% 70% ;
+    padding: 10px;
+}
+.b-radius {
+    background: linear-gradient(90deg, #e2a658 0%, #883e0a 100%);
+}
+ul {
+    list-style: none;
+}
+.b-radius:hover{
+    transition: 2s;
+    transform: scale(1.1);
+}
+.btn-card{
+
+    font-family: Roboto, sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #e2a658 0%, #883f0a 100%);
+    padding: 10px 30px;
+    border: 2px solid #ffffff;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 25px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    }
+    
+    .btn-card:hover{
+    
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background: linear-gradient(90deg, #883f0a 0%,#e2a658 100%);
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    }
+
+
+
